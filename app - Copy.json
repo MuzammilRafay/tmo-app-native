@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "TmoExpo",
+    "slug": "TmoExpo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/project_detail/App-icon.png",
+    "platforms": ["ios", "android", "web"],
+    // "splash": {
+    //   "image": "./assets/project_detail/splash-big-new.png",
+    //   "resizeMode": "contain",
+    //   "backgroundColor": "#bf2246"
+    // },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.yourcompany.yourappname",
+      "buildNumber": "1.0.0",
+      "splash": {
+        "image": "./assets/project_detail/splash-big-new.png",
+        "resizeMode": "cover"
+      }
+    },
+    "android": {
+      "package": "com.yourcompany.yourappname",
+      "versionCode": 1,
+      "splash": {
+        "mdpi": "./assets/project_detail/splash/mdpi/splash-big-new.png",
+        "hdpi": "./assets/project_detail/splash/hdpi/splash-big-new.png",
+        "xhdpi": "./assets/project_detail/splash/xhdpi/splash-big-new.png",
+        "xxhdpi": "./assets/project_detail/splash/xxhdpi/splash-big-new.png",
+        "xxxhdpi": "./assets/project_detail/splash/xxxhdpi/splash-big-new.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#bf2246"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": ""
+  }
+}

@@ -1,0 +1,119 @@
+expo build:android -t apk
+expo build:android
+expo build:ios
+splash-big-new.png
+
+
+{
+  "expo": {
+    "name": "APP Name",
+    "slug": "app-name",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.companyname.appname",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.companyname.appname",
+      "versionCode": 1
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"splash": {
+  "image": "assets/splash.png",
+  "resizeMode": "cover",
+  "backgroundColor": "#FFFFFF"
+},
+"android": {
+  "versionCode": 1,
+  "package": "com.me.myApp",
+  "splash": {
+    "mdpi": "assets/splash/mdpi/splash.png",
+    "hdpi": "assets/splash/hdpi/splash.png",
+    "xhdpi": "assets/splash/xhdpi/splash.png",
+    "xxhdpi": "assets/splash/xxhdpi/splash.png",
+    "xxxhdpi": "assets/splash/xxxhdpi/splash.png"
+  }
+}
+
+
+
+
+
+
+
+mdpi: 1242x2436 (278 KB),
+hdpi: 1863x3654 (146 KB),
+xhdpi: 2484x4872 (438 KB),
+xxhdpi: 3726x7308 (846 KB),
+xxxhdpi: 4968x9744 (1.34 MB)
+
+
+
+mdpi: 320x628,
+hdpi: 480x942,
+xhdpi: 640x1256,
+xxhdpi: 960x1884,
+xxxhdpi: 1280x2512
+
+
+mdpi: 320x628,
+hdpi: 480x942,
+xhdpi: 640x1256,
+xxhdpi: 960x1884,
+xxxhdpi: 1280x2512
+
+
+1242 x 2436
+
+"android": {
+       "package": "com.yourproject.sampleapp",
+       "googleServicesFile": "./google-services.json",
+      "versionCode": 54,
+      "icon": "./assets/images/icon1024x1024.png",
+      "splash": {
+           "mdpi": "assets/splash/mdpi/splash.png",
+           "hdpi": "assets/splash/hdpi/splash.png",
+           "xhdpi": "assets/splash/xhdpi/splash.png",
+           "xxhdpi": "assets/splash/xxhdpi/splash.png",
+           "xxxhdpi": "assets/splash/xxxhdpi/splash.png"
+        },
+
+
+
+https://expo.io/artifacts/39c6b453-a692-4e60-a657-176a41427634
